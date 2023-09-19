@@ -66,8 +66,3 @@ class ProductoViewSet(viewsets.ModelViewSet):
 
         return Response(serializer.data)
     
-
-# usuario id 5 NO APROBADO token --> eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjozNzY5NTA3MzI5MiwiaWF0IjoxNjk1MDczMjkyLCJqdGkiOiI0MjgzM2M4ZjVjYjE0YTg1OTU3ZmE2NWE3MTdmNjJlMyIsInVzZXJfaWQiOjV9.IXxgGxFzUkUw7q-ifiee4ZakGLWAcQSMk0XW1Zf_muY
-
-# usuario id 6 APROBADO token --> eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjozNzY5NTA3MzQxMiwiaWF0IjoxNjk1MDczNDEyLCJqdGkiOiJlNzM1ZmIwYmI3M2Y0MDg4OTFmNzlkODE2ZTQ5NjUzMCIsInVzZXJfaWQiOjZ9.ZT50FJdGyHk17nu3dovO9gQ_zmC1KOK-STNhFEvLJnQ
-
